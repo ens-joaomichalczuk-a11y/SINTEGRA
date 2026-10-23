@@ -1,0 +1,130 @@
+.desktop-1,
+.desktop-1 * {
+  box-sizing: border-box;
+}
+.desktop-1 {
+  background: #ffffff;
+  padding: 0px 0px 810px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.menu {
+  background: var(--cor-primaria, #ffcc00);
+  border-style: solid;
+  border-color: var(--cor-secundaria, #087a02);
+  border-width: 1px;
+  padding: 50px 569px 50px 569px;
+  display: flex;
+  flex-direction: row;
+  gap: 250px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+  
+}
+.sintegra {
+  color: #000000;
+  text-align: center;
+  font-family: "RockSalt-Regular", sans-serif;
+  font-size: 48px;
+  letter-spacing: 1em;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-text-stroke: 3px #cac41c;
+  font-family: "Rock Salt", cursive;
+  font-weight: 10;
+  font-style: normal;
+}
+.mapa-e-estados {
+  padding: 0 40px;          /* era 0 464px, o que espremia a lista */
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 715px;
+  position: relative;
+  overflow: hidden;
+}
+.mapa {
+  border-radius: 95px;
+  flex-shrink: 0;
+  width: 792px;
+  height: 714px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 792/714;
+}
+.estados {
+  color: #000000;
+  text-align: left;
+  font-family: "Rubik-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  position: relative;
+
+  display: block;           /* era flex column */
+  height: 658px;            /* altura máxima da coluna */
+  width: 380px;
+  column-count: 2;          /* quando chega no fim da altura, vai pra próxima coluna */
+  column-gap: 40px;
+  column-fill: auto;        /* preenche a 1ª coluna até o fim antes de usar a 2ª */
+}
+.restante {
+  background: var(--cor-primaria, #ffcc00);
+  border-style: solid;
+  border-color: var(--cor-secundaria, #087a02);
+  border-width: 1px;
+  padding: 1px 51px 1px 51px;
+  display: flex;
+  flex-direction: row;
+  gap: 733px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.c {
+  color: #000000;
+  text-align: center;
+  font-family: "Rubik-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+  width: 317px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cadastro-centralizado-de-contribuintes {
+  color: #000000;
+  text-align: center;
+  font-family: "Rubik-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+  width: 288px;
+  height: 91px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

@@ -1,0 +1,19 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  /* Fonts */
+  --sintegra-font-family: IrishGrover-Regular, sans-serif;
+  --sintegra-font-size: 20px;
+  --sintegra-line-height: normal;
+  --sintegra-font-weight: 400;
+  --sintegra-font-style: normal;
+
+  /* Effects */
+}
+/* Figma Color Variables of your File */
+:root,
+[data-colecao-de-variaveis-mode="mode-1"] {
+  /* mode-1 */
+  --cor-primaria: #ffcc00;
+  --cor-secundaria: #087a02;
+}
