@@ -48,7 +48,7 @@
   font-style: normal;
 }
 .mapa-e-estados {
-  padding: 0 40px;          /* era 0 464px, o que espremia a lista */
+  padding: 0 40px;         
   display: flex;
   flex-direction: row;
   gap: 40px;
@@ -78,12 +78,12 @@
   line-height: 1.6;
   position: relative;
 
-  display: block;           /* era flex column */
-  height: 658px;            /* altura máxima da coluna */
+  display: block;          
+  height: 658px;           
   width: 380px;
-  column-count: 2;          /* quando chega no fim da altura, vai pra próxima coluna */
+  column-count: 2;         
   column-gap: 40px;
-  column-fill: auto;        /* preenche a 1ª coluna até o fim antes de usar a 2ª */
+  column-fill: auto;        
 }
 .restante {
   background: var(--cor-primaria, #ffcc00);
@@ -127,4 +127,34 @@
   align-items: center;
   justify-content: center;
 }
+    a,
+    button,
+    input,
+    select,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      border: none;
+      text-decoration: none;
+      background: none;
 
+      -webkit-font-smoothing: antialiased;
+    }
+
+    menu,
+    ol,
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    footer{
+      color: red;
+      font-style: italic;
+    }
