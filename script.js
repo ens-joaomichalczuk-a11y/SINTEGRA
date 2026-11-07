@@ -1,4 +1,4 @@
-    function Acre() { window.location.href= "https://sefazonline.ac.gov.br/sefazonline/app.wmsintegralista"}
+function Acre() { window.location.href= "https://sefazonline.ac.gov.br/sefazonline/app.wmsintegralista"}
     function Alagoas() { window.location.href="https://www.sefaz.al.gov.br/asp/sintegra/sintegra.asp?estado=AL " }
     function Amazonas() { window.location.href="https://online.sefaz.am.gov.br/sintegra/index.asp" }
     function Amapa() { window.location.href="https://www.sefaz.ap.gov.br/sate/seg/SEGf_AcessarFuncao.jsp?cdFuncao=CAD_011" }
@@ -25,3 +25,13 @@
     function Sergipe() { window.location.href="https://portal.apps.sefaz.se.gov.br/auth/realms/fazendario/protocol/openid-connect/auth?client_id=portal-frontend&redirect_uri=https%3A%2F%2Fportais-fazendario.apps.sefaz.se.gov.br%2Fprivate%2Fportal-fazendario%2Fvinculos&state=4bebab16-52c2-4d87-8b2b-20194ae23327&response_mode=fragment&response_type=code&scope=openid&nonce=23cda0e7-2d1b-4d0a-b10e-58f88843a19f&code_challenge=m9u_-v727iYj5eA1LfhuiTOr4PQH7K4JHSt9mpJToUM&code_challenge_method=S256" }
     function SaoPaulo() { window.location.href="https://www.cadesp.fazenda.sp.gov.br/(S(53k5ryblv4jjsor2shwuottc))/Pages/Cadastro/Consultas/ConsultaPublica/ConsultaPublica.aspx"}
     function Tocantins() { window.location.href="https://sintegra.sefaz.to.gov.br/sintegra/servlet/wpsico01" }
+
+//usar com tab e enter
+    document.querySelectorAll('#estados path[role="link"]').forEach(function (p) {
+      p.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          p.dispatchEvent(new MouseEvent('click'));
+        }
+      });
+    });
